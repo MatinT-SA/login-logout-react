@@ -12,12 +12,12 @@ body {
     height: 100vh;
     overflow-y: hidden;
 
-    background: -moz-linear-gradient(155deg, rgba(212, 0, 255, 1) 0%, rgba(245, 0, 203, 1) 65%, rgba(125, 12, 127, 1) 100%);
-    background: -webkit-linear-gradient(155deg, rgba(212, 0, 255, 1) 0%, rgba(245, 0, 203, 1) 65%, rgba(125, 12, 127, 1) 100%);
-    background: -o-linear-gradient(155deg, rgba(212, 0, 255, 1) 0%, rgba(245, 0, 203, 1) 65%, rgba(125, 12, 127, 1) 100%);
+    background: -moz-linear-gradient(155deg, rgba(212, 0, 255, .7) 0%, rgba(245, 0, 203, .7) 65%, rgba(125, 12, 127, .7) 100%);
+    background: -webkit-linear-gradient(155deg, rgba(212, 0, 255, .7) 0%, rgba(245, 0, 203, .7) 65%, rgba(125, 12, 127, .7) 100%);
+    background: -o-linear-gradient(155deg, rgba(212, 0, 255, .7) 0%, rgba(245, 0, 203, .7) 65%, rgba(125, 12, 127, .7) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7D0C7F', endColorstr='#D400FF', GradientType=1);
-    background: -ms-linear-gradient(155deg, rgba(212, 0, 255, 1) 0%, rgba(245, 0, 203, 1) 65%, rgba(125, 12, 127, 1) 100%);
-    background: linear-gradient(155deg, rgba(212, 0, 255, 1) 0%, rgba(245, 0, 203, 1) 65%, rgba(125, 12, 127, 1) 100%);
+    background: -ms-linear-gradient(155deg, rgba(212, 0, 255, .7) 0%, rgba(245, 0, 203, .7) 65%, rgba(125, 12, 127, .7) 100%);
+    background: linear-gradient(155deg, rgba(212, 0, 255, .7) 0%, rgba(245, 0, 203, .7) 65%, rgba(125, 12, 127, .7) 100%);
 }
 
 main {

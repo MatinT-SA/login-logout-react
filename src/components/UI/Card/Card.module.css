@@ -1,5 +1,21 @@
 .card {
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  border-radius: 10px;
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(27deg, rgba(243, 255, 255, 1) 0%, rgba(210, 239, 250, 1) 78%, rgba(139, 167, 170, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(27deg, rgba(243, 255, 255, 1) 0%, rgba(210, 239, 250, 1) 78%, rgba(139, 167, 170, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(27deg, rgba(243, 255, 255, 1) 0%, rgba(210, 239, 250, 1) 78%, rgba(139, 167, 170, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3FFFF', endColorstr='#8BA7AA', GradientType=1);
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(27deg, rgba(243, 255, 255, 1) 0%, rgba(210, 239, 250, 1) 78%, rgba(139, 167, 170, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(27deg, rgba(243, 255, 255, 1) 0%, rgba(210, 239, 250, 1) 78%, rgba(139, 167, 170, 1) 100%);
+    box-shadow: 0 10px 10px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 7px 30px;
 }

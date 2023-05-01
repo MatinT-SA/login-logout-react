@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contact {
+    color: black;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: .3s ease-out;
+    border-radius: 5px 13px 10px 30px;
+}
+
+.contact:hover {
+    color: red;
+    background-color: black;
+}
+
+.image {
+    width: 200px;
+    height: 100px;
+    margin-left: -15rem;
+}

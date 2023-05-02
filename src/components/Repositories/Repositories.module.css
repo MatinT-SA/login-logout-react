@@ -9,10 +9,11 @@
     color: black;
     background-color: red;
     font-size: 20px;
-    padding: 10px 22px;
+    padding: 16px 28px;
     cursor: pointer;
     transition: .3s ease-out;
     border-radius: 5px 13px 10px 30px;
+    animation: buttonSlowAnimation 2s ease-in infinite;
 }
 
 .contact:hover {
@@ -24,4 +25,18 @@
     width: 200px;
     height: 100px;
     margin-left: -15rem;
+}
+
+@keyframes buttonSlowAnimation {
+    0% {
+        padding: 16px 28px;
+    }
+
+    50%{
+        padding: 26px 38px;
+    }
+
+    100%{
+        padding: 16px 28px;
+    }
 }

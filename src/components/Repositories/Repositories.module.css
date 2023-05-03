@@ -6,6 +6,22 @@
 }
 
 .contact {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 27px;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #999999;
+    background: #ffffff;
+    border: 3px solid #999999;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+
     color: black;
     background-color: red;
     font-size: 20px;
@@ -16,9 +32,38 @@
     animation: buttonSlowAnimation 2s ease-in infinite;
 }
 
-.contact:hover {
-    color: red;
-    background-color: black;
+.contact::before,
+.contact::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+.contact::after{
+    top: -9px;
+    left: -9px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+.contact::before{
+    bottom: -9px;
+    right: -9px;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.contact:hover{
+    color: #222222;
+}
+
+.contact:hover::before,
+.contact:hover::after{
+    width: 30px;
+    height: 30px;
+    border-color: #222222;
 }
 
 .image {

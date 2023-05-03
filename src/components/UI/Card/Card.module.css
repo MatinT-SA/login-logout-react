@@ -16,6 +16,6 @@
 
     /* global 94%+ browsers support */
     background: linear-gradient(27deg, rgba(243, 255, 255, 1) 0%, rgba(210, 239, 250, 1) 78%, rgba(139, 167, 170, 1) 100%);
-    box-shadow: 0 10px 10px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: -100px 50px 25px 5px rgba(0, 0, 0, 0.3);
     border-radius: 7px 30px;
 }

@@ -1,5 +1,6 @@
 .wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -33,7 +34,7 @@
 }
 
 .contact::before,
-.contact::after{
+.contact::after {
     position: absolute;
     content: "";
     width: 0;
@@ -41,26 +42,26 @@
     transition: .5s;
 }
 
-.contact::after{
+.contact::after {
     top: -9px;
     left: -9px;
     border-top: 3px solid transparent;
     border-left: 3px solid transparent;
 }
 
-.contact::before{
+.contact::before {
     bottom: -9px;
     right: -9px;
     border-bottom: 3px solid transparent;
     border-right: 3px solid transparent;
 }
 
-.contact:hover{
+.contact:hover {
     color: #222222;
 }
 
 .contact:hover::before,
-.contact:hover::after{
+.contact:hover::after {
     width: 30px;
     height: 30px;
     border-color: #222222;
@@ -77,11 +78,24 @@
         padding: 16px 28px;
     }
 
-    50%{
+    50% {
         padding: 26px 38px;
     }
 
-    100%{
+    100% {
         padding: 16px 28px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact {
+        font-size: 1.2rem;
+    }
+
+    .image{
+        transform: rotate(90deg);
+        margin: 0;
+        flex-basis: 100%;
+        flex: 0 0 50%;
     }
 }

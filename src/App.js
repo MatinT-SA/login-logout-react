@@ -16,7 +16,7 @@ function App() {
                 {!ctx.isLoggedIn && <Login />}
                 {ctx.isLoggedIn && <Home />}
 
-                <br /><br /><br /><br />
+                <br /><br /><br />
                 <Repositories />
             </main>
         </React.Fragment>
